@@ -10,7 +10,7 @@ function SidebarRow({Icon, title}: Props) {
   return (
     <div className="flex max-w-fit cursor-pointer rounded-full items-center space-x-2 px-4 py-3 hover:bg-gray-100 transition-all duration-200 group">
         <Icon className="h-6 w-6"/>
-        <p className='group-hover:text-twitter'>{title}</p>
+        <p className='hidden md:inline-flex group-hover:text-twitter test-base font-light lg:text-xl'>{title}</p>
     </div>
   )
 }
